@@ -1,14 +1,22 @@
 import './App.css'
-import Nav from './components/Nav'
-import Cards from './components/products/Cards'
+import CartDetails from './components/AddToCart/CartDetails'
+import CartDataProvider from './components/Cart Item/CartDataProvider'
+import CounterProvider from './components/Cart Item/CounterProvider'
+import RouterApp from './routerApp'
 
 function App() {
 
 
   return (
     <>
-    <Nav/>
-    <Cards/>
+   <CartDataProvider>
+    <CounterProvider>
+    
+        <RouterApp />
+       
+    </CounterProvider>
+    </CartDataProvider>
+ 
     </>
   )
 }
