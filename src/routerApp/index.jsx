@@ -13,7 +13,7 @@ const RouterApp = () => {
           path: "/",
           element: <Nav />, // Layout route
           children: [
-            { path: "/", element: <Home /> },
+            { path: "/", element: <Products /> },
             { path: "/about", element: <About/> },
             { path: "/products", element: <Products /> },
             { path: "/add-to-cart", element: <CartDetails /> },

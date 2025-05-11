@@ -12,7 +12,7 @@ const CartDetails = () => {
   function updateCartQuantity()
   {
     cartData.map((items)=>{
-      if(items.id===items.id)
+      if(items.id)
       {
         setCartQuantity(cartQuantity + 1)
       }
