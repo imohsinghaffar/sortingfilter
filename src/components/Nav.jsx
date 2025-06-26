@@ -10,7 +10,7 @@ const Nav = () => {
     <>
       <div className="flex sticky z-50 top-0 w-full items-center justify-between bg-gray-700 py-4 px-20">
         <div>
-          <NavLink to='/' className="text-2xl text-white">Logo</NavLink>
+          <NavLink to='/' className="text-2xl text-white">Ecommerce App</NavLink>
         </div>
         <div className="flex flex-row list-none gap-10 text-white text-lg">
           <NavLink to="/" className='focus:text-blue-500'>Home</NavLink>

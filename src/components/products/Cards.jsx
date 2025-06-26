@@ -58,7 +58,7 @@ const sortByPrice = (order = 'asc')=>{
     <div className="flex mt-10 items-center justify-center">
     <h1 className="text-4xl font-semibold">Our Products</h1>
     </div>
-      <div className="flex flex-col-reverse items-center justify-between sm:flex-row px-4 py-3 ">
+      <div className="flex flex-col-reverse items-center justify-between sm:flex-row px-20 py-3 ">
         <div className="flex items-center mt-6 justify-between gap-6" >
         <SelectCategory selectHandle={selectCategoryHandle}/>
         <SortPrice lowToHighPrice = {()=>sortByPrice('asc')} highToLowPrice = {()=>sortByPrice('desc')} />
@@ -67,7 +67,7 @@ const sortByPrice = (order = 'asc')=>{
         <Input inputHandle= {inputHandle}/>
         </div>
         </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-20">
         {dataList.map(({ images, price, id, title, description, category:{name} }, index) => {
           return (
             <Card
