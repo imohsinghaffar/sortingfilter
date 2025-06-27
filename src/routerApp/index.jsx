@@ -11,7 +11,7 @@ const RouterApp = () => {
     const router = createBrowserRouter([
         {
           path: "/",
-          element: <Nav />, // Layout route
+          element: <Nav />, // Layout route or we can also make separate file for layout
           children: [
             { path: "/", element: <Home /> },
             { path: "/about", element: <About/> },
