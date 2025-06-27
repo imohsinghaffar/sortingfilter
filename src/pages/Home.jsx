@@ -1,10 +1,11 @@
 import React from 'react'
+import Homepage from '../components/Homepage'
 
 const Home = () => {
   return (
-    <div className='px-20 py-3'>
-      This is home Page
-    </div>
+    <>
+    <Homepage />
+    </>
   )
 }
 

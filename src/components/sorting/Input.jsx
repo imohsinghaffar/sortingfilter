@@ -4,18 +4,18 @@ const Input = ({ inputHandle }) => {
   const [isFocused, setIsFocused] = useState(false);
 
   return (
-    <div className="relative w-full max-w-xs">
+    <div className="relative w-full max-w-sm">
       <input
         onChange={inputHandle}
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
         type="text"
         placeholder="Search products..."
-        className={`w-full py-2 px-4 pr-10 rounded-lg border-2 transition-all duration-200 ${
-          isFocused
+        className={`w-full py-2.5 px-4 pr-10 rounded-lg border transition-all duration-200 text-sm text-gray-700 bg-white shadow-sm
+          ${isFocused
             ? "border-indigo-500 ring-2 ring-indigo-200"
-            : "border-gray-300 hover:border-gray-400"
-        } focus:outline-none shadow-sm`}
+            : "border-gray-300 hover:border-gray-400 focus:border-indigo-500"}
+          focus:outline-none`}
       />
       <div className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
         <svg

@@ -1,219 +1,87 @@
 export const productList = [
-    {
-    "id": 4,
-    "title": "Classic Grey Hooded Sweatshirt",
-    "slug": "classic-grey-hooded-sweatshirt",
-    "price": 90,
-    "description": "Elevate your casual wear with our Classic Grey Hooded Sweatshirt. Made from a soft cotton blend, this hoodie features a front kangaroo pocket, an adjustable drawstring hood, and ribbed cuffs for a snug fit. Perfect for those chilly evenings or lazy weekends, it pairs effortlessly with your favorite jeans or joggers.",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/R2PN9Wq.jpeg",
-    "https://i.imgur.com/IvxMPFr.jpeg",
-    "https://i.imgur.com/7eW9nXP.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    {
-    "id": 6,
-    "title": "Classic Comfort Fit Joggers",
-    "slug": "classic-comfort-fit-joggers",
+  {
+    "id": 31,
+    "title": "Modern Elegance Teal Armchair",
+    "slug": "modern-elegance-teal-armchair",
     "price": 25,
-    "description": "Discover the perfect blend of style and comfort with our Classic Comfort Fit Joggers. These versatile black joggers feature a soft elastic waistband with an adjustable drawstring, two side pockets, and ribbed ankle cuffs for a secure fit. Made from a lightweight and durable fabric, they are ideal for both active days and relaxed lounging.",
+    "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
     "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
     "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
+    "updatedAt": "2025-04-07T19:21:33.000Z"
     },
     "images": [
-    "https://i.imgur.com/ZKGofuB.jpeg",
-    "https://i.imgur.com/GJi73H0.jpeg",
-    "https://i.imgur.com/633Fqrz.jpeg"
+    "https://i.imgur.com/6wkyyIN.jpeg",
+    "https://i.imgur.com/Ald3Rec.jpeg",
+    "https://i.imgur.com/dIqo03c.jpeg"
     ],
     "creationAt": "2025-04-07T19:21:33.000Z",
     "updatedAt": "2025-04-07T19:21:33.000Z"
     },
     {
-    "id": 10,
-    "title": "Classic Blue Baseball Cap",
-    "slug": "classic-blue-baseball-cap",
-    "price": 86,
-    "description": "Top off your casual look with our Classic Blue Baseball Cap, made from high-quality materials for lasting comfort. Featuring a timeless six-panel design with a pre-curved visor, this adjustable cap offers both style and practicality for everyday wear.",
+    "id": 32,
+    "title": "Elegant Solid Wood Dining Table",
+    "slug": "elegant-solid-wood-dining-table",
+    "price": 67,
+    "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
     "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
     "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
+    "updatedAt": "2025-04-07T19:21:33.000Z"
     },
     "images": [
-    "https://i.imgur.com/wXuQ7bm.jpeg",
-    "https://i.imgur.com/BZrIEmb.jpeg",
-    "https://i.imgur.com/KcT6BE0.jpeg"
+    "https://i.imgur.com/4lTaHfF.jpeg",
+    "https://i.imgur.com/JktHE1C.jpeg",
+    "https://i.imgur.com/cQeXQMi.jpeg"
     ],
     "creationAt": "2025-04-07T19:21:33.000Z",
     "updatedAt": "2025-04-07T19:21:33.000Z"
     },
     {
-    "id": 11,
-    "title": "Classic Red Baseball Cap",
-    "slug": "classic-red-baseball-cap",
-    "price": 35,
-    "description": "Elevate your casual wardrobe with this timeless red baseball cap. Crafted from durable fabric, it features a comfortable fit with an adjustable strap at the back, ensuring one size fits all. Perfect for sunny days or adding a sporty touch to your outfit.",
+    "id": 33,
+    "title": "Modern Minimalist Workstation Setup",
+    "slug": "modern-minimalist-workstation-setup",
+    "price": 49,
+    "description": "Elevate your home office with our Modern Minimalist Workstation Setup, featuring a sleek wooden desk topped with an elegant computer, stylish adjustable wooden desk lamp, and complimentary accessories for a clean, productive workspace. This setup is perfect for professionals seeking a contemporary look that combines functionality with design.",
     "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
     "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
+    "updatedAt": "2025-04-07T19:21:33.000Z"
     },
     "images": [
-    "https://i.imgur.com/cBuLvBi.jpeg",
-    "https://i.imgur.com/N1GkCIR.jpeg",
-    "https://i.imgur.com/kKc9A5p.jpeg"
+    "https://i.imgur.com/3oXNBst.jpeg",
+    "https://i.imgur.com/ErYYZnT.jpeg",
+    "https://i.imgur.com/boBPwYW.jpeg"
     ],
     "creationAt": "2025-04-07T19:21:33.000Z",
     "updatedAt": "2025-04-07T19:21:33.000Z"
     },
     {
-    "id": 13,
-    "title": "Classic Olive Chino Shorts",
-    "slug": "classic-olive-chino-shorts",
-    "price": 84,
-    "description": "Elevate your casual wardrobe with these classic olive chino shorts. Designed for comfort and versatility, they feature a smooth waistband, practical pockets, and a tailored fit that makes them perfect for both relaxed weekends and smart-casual occasions. The durable fabric ensures they hold up throughout your daily activities while maintaining a stylish look.",
+    "id": 34,
+    "title": "Modern Ergonomic Office Chair",
+    "slug": "modern-ergonomic-office-chair",
+    "price": 71,
+    "description": "Elevate your office space with this sleek and comfortable Modern Ergonomic Office Chair. Designed to provide optimal support throughout the workday, it features an adjustable height mechanism, smooth-rolling casters for easy mobility, and a cushioned seat for extended comfort. The clean lines and minimalist white design make it a versatile addition to any contemporary workspace.",
     "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/UsFIvYs.jpeg",
-    "https://i.imgur.com/YIq57b6.jpeg"
-    ],
+    "id": 3,
+    "name": "Furniture",
+    "slug": "furniture",
+    "image": "https://i.imgur.com/Qphac99.jpeg",
     "creationAt": "2025-04-07T19:21:33.000Z",
     "updatedAt": "2025-04-07T19:21:33.000Z"
     },
-    {
-    "id": 15,
-    "title": "Classic White Crew Neck T-Shirt",
-    "slug": "classic-white-crew-neck-t-shirt",
-    "price": 39,
-    "description": "Elevate your basics with this versatile white crew neck tee. Made from a soft, breathable cotton blend, it offers both comfort and durability. Its sleek, timeless design ensures it pairs well with virtually any outfit. Ideal for layering or wearing on its own, this t-shirt is a must-have staple for every wardrobe.",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
     "images": [
-    "https://i.imgur.com/axsyGpD.jpeg",
-    "https://i.imgur.com/T8oq9X2.jpeg",
-    "https://i.imgur.com/J6MinJn.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    {
-    "id": 16,
-    "title": "Classic White Tee - Timeless Style and Comfort",
-    "slug": "classic-white-tee-timeless-style-and-comfort",
-    "price": 73,
-    "description": "Elevate your everyday wardrobe with our Classic White Tee. Crafted from premium soft cotton material, this versatile t-shirt combines comfort with durability, perfect for daily wear. Featuring a relaxed, unisex fit that flatters every body type, it's a staple piece for any casual ensemble. Easy to care for and machine washable, this white tee retains its shape and softness wash after wash. Pair it with your favorite jeans or layer it under a jacket for a smart look.",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/Y54Bt8J.jpeg",
-    "https://i.imgur.com/SZPDSgy.jpeg",
-    "https://i.imgur.com/sJv4Xx0.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    {
-    "id": 18,
-    "title": "Sleek White & Orange Wireless Gaming Controller",
-    "slug": "sleek-white-orange-wireless-gaming-controller",
-    "price": 69,
-    "description": "Elevate your gaming experience with this state-of-the-art wireless controller, featuring a crisp white base with vibrant orange accents. Designed for precision play, the ergonomic shape and responsive buttons provide maximum comfort and control for endless hours of gameplay. Compatible with multiple gaming platforms, this controller is a must-have for any serious gamer looking to enhance their setup.",
-    "category": {
-    "id": 2,
-    "name": "Electronics",
-    "slug": "electronics",
-    "image": "https://i.imgur.com/ZANVnHE.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:35.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/ZANVnHE.jpeg",
-    "https://i.imgur.com/Ro5z6Tn.jpeg",
-    "https://i.imgur.com/woA93Li.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    {
-    "id": 19,
-    "title": "Sleek Wireless Headphone & Inked Earbud Set",
-    "slug": "sleek-wireless-headphone-inked-earbud-set",
-    "price": 44,
-    "description": "Experience the fusion of style and sound with this sophisticated audio set featuring a pair of sleek, white wireless headphones offering crystal-clear sound quality and over-ear comfort. The set also includes a set of durable earbuds, perfect for an on-the-go lifestyle. Elevate your music enjoyment with this versatile duo, designed to cater to all your listening needs.",
-    "category": {
-    "id": 2,
-    "name": "Electronics",
-    "slug": "electronics",
-    "image": "https://i.imgur.com/ZANVnHE.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:35.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/yVeIeDa.jpeg",
-    "https://i.imgur.com/jByJ4ih.jpeg",
-    "https://i.imgur.com/KXj6Tpb.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    {
-    "id": 20,
-    "title": "Sleek Comfort-Fit Over-Ear Headphones",
-    "slug": "sleek-comfort-fit-over-ear-headphones",
-    "price": 28,
-    "description": "Experience superior sound quality with our Sleek Comfort-Fit Over-Ear Headphones, designed for prolonged use with cushioned ear cups and an adjustable, padded headband. Ideal for immersive listening, whether you're at home, in the office, or on the move. Their durable construction and timeless design provide both aesthetically pleasing looks and long-lasting performance.",
-    "category": {
-    "id": 2,
-    "name": "Electronics",
-    "slug": "electronics",
-    "image": "https://i.imgur.com/ZANVnHE.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:35.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/SolkFEB.jpeg",
-    "https://i.imgur.com/KIGW49u.jpeg",
-    "https://i.imgur.com/mWwek7p.jpeg"
+    "https://i.imgur.com/3dU0m72.jpeg",
+    "https://i.imgur.com/zPU3EVa.jpeg"
     ],
     "creationAt": "2025-04-07T19:21:33.000Z",
     "updatedAt": "2025-04-07T19:21:33.000Z"
@@ -394,93 +262,7 @@ export const productList = [
     "creationAt": "2025-04-07T19:21:33.000Z",
     "updatedAt": "2025-04-07T19:21:33.000Z"
     },
-    {
-    "id": 31,
-    "title": "Modern Elegance Teal Armchair",
-    "slug": "modern-elegance-teal-armchair",
-    "price": 25,
-    "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
-    "category": {
-    "id": 3,
-    "name": "Furniture",
-    "slug": "furniture",
-    "image": "https://i.imgur.com/Qphac99.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/6wkyyIN.jpeg",
-    "https://i.imgur.com/Ald3Rec.jpeg",
-    "https://i.imgur.com/dIqo03c.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    {
-    "id": 32,
-    "title": "Elegant Solid Wood Dining Table",
-    "slug": "elegant-solid-wood-dining-table",
-    "price": 67,
-    "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
-    "category": {
-    "id": 3,
-    "name": "Furniture",
-    "slug": "furniture",
-    "image": "https://i.imgur.com/Qphac99.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/4lTaHfF.jpeg",
-    "https://i.imgur.com/JktHE1C.jpeg",
-    "https://i.imgur.com/cQeXQMi.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    {
-    "id": 33,
-    "title": "Modern Minimalist Workstation Setup",
-    "slug": "modern-minimalist-workstation-setup",
-    "price": 49,
-    "description": "Elevate your home office with our Modern Minimalist Workstation Setup, featuring a sleek wooden desk topped with an elegant computer, stylish adjustable wooden desk lamp, and complimentary accessories for a clean, productive workspace. This setup is perfect for professionals seeking a contemporary look that combines functionality with design.",
-    "category": {
-    "id": 3,
-    "name": "Furniture",
-    "slug": "furniture",
-    "image": "https://i.imgur.com/Qphac99.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/3oXNBst.jpeg",
-    "https://i.imgur.com/ErYYZnT.jpeg",
-    "https://i.imgur.com/boBPwYW.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    {
-    "id": 34,
-    "title": "Modern Ergonomic Office Chair",
-    "slug": "modern-ergonomic-office-chair",
-    "price": 71,
-    "description": "Elevate your office space with this sleek and comfortable Modern Ergonomic Office Chair. Designed to provide optimal support throughout the workday, it features an adjustable height mechanism, smooth-rolling casters for easy mobility, and a cushioned seat for extended comfort. The clean lines and minimalist white design make it a versatile addition to any contemporary workspace.",
-    "category": {
-    "id": 3,
-    "name": "Furniture",
-    "slug": "furniture",
-    "image": "https://i.imgur.com/Qphac99.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://i.imgur.com/3dU0m72.jpeg",
-    "https://i.imgur.com/zPU3EVa.jpeg"
-    ],
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
+    
     {
     "id": 35,
     "title": "Futuristic Holographic Soccer Cleats",
@@ -809,166 +591,8 @@ export const productList = [
     "creationAt": "2025-04-07T19:21:33.000Z",
     "updatedAt": "2025-04-07T19:21:33.000Z"
     },
-    {
-    "id": 69,
-    "title": "soska",
-    "slug": "soska",
-    "price": 2000,
-    "description": "sdfghjkl",
-    "category": {
-    "id": 4,
-    "name": "Shoes",
-    "slug": "shoes",
-    "image": "https://i.imgur.com/qNOjJje.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNqXaFN_cE8aL_5BzQFBC_k7XaEeTKomAp8g&s"
-    ],
-    "creationAt": "2025-04-08T02:55:01.000Z",
-    "updatedAt": "2025-04-08T02:55:01.000Z"
-    },
-    {
-    "id": 72,
-    "title": "new new  8 apr",
-    "slug": "new-new-8-apr",
-    "price": 10,
-    "description": "new new 8 apr",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://placehold.co/600x400"
-    ],
-    "creationAt": "2025-04-08T03:45:54.000Z",
-    "updatedAt": "2025-04-08T03:45:54.000Z"
-    },
-    {
-    "id": 73,
-    "title": "new dsdsdssdsdsdnew  8 apr",
-    "slug": "new-dsdsdssdsdsdnew-8-apr",
-    "price": 10,
-    "description": "new new 8 apr",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://placehold.co/600x400"
-    ],
-    "creationAt": "2025-04-08T03:50:04.000Z",
-    "updatedAt": "2025-04-08T03:50:04.000Z"
-    },
-    {
-    "id": 74,
-    "title": "new dsdsdssdsSFDDFSDFSDFSDFSDSFdsdnew  8 apr",
-    "slug": "new-dsdsdssdssfddfsdfsdfsdfsdsfdsdnew-8-apr",
-    "price": 10,
-    "description": "new new SDFDSFDFSDFSDFS8 apr",
-    "category": {
-    "id": 2,
-    "name": "Electronics",
-    "slug": "electronics",
-    "image": "https://i.imgur.com/ZANVnHE.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:35.000Z"
-    },
-    "images": [
-    "https://placehold.co/600x400"
-    ],
-    "creationAt": "2025-04-08T03:52:36.000Z",
-    "updatedAt": "2025-04-08T03:52:36.000Z"
-    },
-    {
-    "id": 75,
-    "title": "new dsdsdssddfdfdfsdsSFDDFSDFSDFSDFSDSFdsdnew  8 apr",
-    "slug": "new-dsdsdssddfdfdfsdssfddfsdfsdfsdfsdsfdsdnew-8-apr",
-    "price": 10,
-    "description": "new new SDFDSFDFSDFSDFS8 apr",
-    "category": {
-    "id": 3,
-    "name": "Furniture",
-    "slug": "furniture",
-    "image": "https://i.imgur.com/Qphac99.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://placehold.co/600x400"
-    ],
-    "creationAt": "2025-04-08T04:22:51.000Z",
-    "updatedAt": "2025-04-08T04:22:51.000Z"
-    },
-    {
-    "id": 76,
-    "title": "new dsdsdssddfdfdfsdsSFasdadsDDFSDFSDFSDFSDSFdsdnew  8 apr",
-    "slug": "new-dsdsdssddfdfdfsdssfasdadsddfsdfsdfsdfsdsfdsdnew-8-apr",
-    "price": 10,
-    "description": "new new SDFDSFDFSDFSDFS8 apr",
-    "category": {
-    "id": 4,
-    "name": "Shoes",
-    "slug": "shoes",
-    "image": "https://i.imgur.com/qNOjJje.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://placehold.co/600x400"
-    ],
-    "creationAt": "2025-04-08T04:23:01.000Z",
-    "updatedAt": "2025-04-08T04:23:01.000Z"
-    },
-    {
-    "id": 77,
-    "title": "new dsdsdssddfdfdfsdsSFadfdfsdadsDDFSDFSDFSDFSDSFdsdnew  8 apr",
-    "slug": "new-dsdsdssddfdfdfsdssfadfdfsdadsddfsdfsdfsdfsdsfdsdnew-8-apr",
-    "price": 10,
-    "description": "new new SDFDSFDFSDFSDFS8 apr",
-    "category": {
-    "id": 5,
-    "name": "Miscellaneous",
-    "slug": "miscellaneous",
-    "image": "https://i.imgur.com/BG8J0Fj.jpg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://placehold.co/600x400"
-    ],
-    "creationAt": "2025-04-08T04:23:10.000Z",
-    "updatedAt": "2025-04-08T04:23:10.000Z"
-    },
-    {
-    "id": 79,
-    "title": "new dsdsdssddfdfdfsdsSFadl;fdfsdasddsdsdsdsddssDDhjhjjFSDFSDFSDFSDSFdsdnew  8 apr",
-    "slug": "new-dsdsdssddfdfdfsdssfadl-fdfsdasddsdsdsdsddssddhjhjjfsdfsdfsdfsdsfdsdnew-8-apr",
-    "price": 10,
-    "description": "new new SDFDSFDFSDFSDFS8 apr",
-    "category": {
-    "id": 4,
-    "name": "Shoes",
-    "slug": "shoes",
-    "image": "https://i.imgur.com/qNOjJje.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://placehold.co/600x400"
-    ],
-    "creationAt": "2025-04-08T04:25:09.000Z",
-    "updatedAt": "2025-04-08T04:25:09.000Z"
-    },
+    
+    
     {
     "id": 80,
     "title": "Example Create Product Edit",
@@ -1030,27 +654,7 @@ export const productList = [
     "creationAt": "2025-04-08T05:04:44.000Z",
     "updatedAt": "2025-04-08T05:04:44.000Z"
     },
-    {
-    "id": 84,
-    "title": "elite black tea",
-    "slug": "elite-black-tea",
-    "price": 1500,
-    "description": "Elite black tea with euricoma",
-    "category": {
-    "id": 3,
-    "name": "Furniture",
-    "slug": "furniture",
-    "image": "https://i.imgur.com/Qphac99.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-07T19:21:33.000Z"
-    },
-    "images": [
-    "https://new.s-rich.com/storage/app/uploads/public/618/088/930/6180889300579289752835.jpg",
-    "https://new.s-rich.com/storage/app/uploads/public/618/088/930/6180889305dfb647639416.jpg"
-    ],
-    "creationAt": "2025-04-08T05:05:21.000Z",
-    "updatedAt": "2025-04-08T05:05:21.000Z"
-    },
+  
     {
     "id": 85,
     "title": "Phone",
@@ -1110,90 +714,275 @@ export const productList = [
     ],
     "creationAt": "2025-04-08T05:18:58.000Z",
     "updatedAt": "2025-04-08T05:18:58.000Z"
-    },
-    {
-    "id": 88,
-    "title": "Juan Fran",
-    "slug": "juan-fran",
-    "price": 56,
-    "description": "sdsdsd",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdWjqjpZ6iTOQ8gdGLEAtyYb7haAQLW7xsFQ&s"
-    ],
-    "creationAt": "2025-04-08T05:47:12.000Z",
-    "updatedAt": "2025-04-08T05:47:12.000Z"
-    },
-    {
-    "id": 89,
-    "title": "sasa",
-    "slug": "sasa",
-    "price": 545,
-    "description": "sasas",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdWjqjpZ6iTOQ8gdGLEAtyYb7haAQLW7xsFQ&s"
-    ],
-    "creationAt": "2025-04-08T05:58:41.000Z",
-    "updatedAt": "2025-04-08T05:58:41.000Z"
-    },
-    {
-    "id": 90,
-    "title": "New Product",
-    "slug": "new-product",
-    "price": 10,
-    "description": "2",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://placeimg.com/640/480/any"
-    ],
-    "creationAt": "2025-04-08T06:04:59.000Z",
-    "updatedAt": "2025-04-08T06:04:59.000Z"
-    },
-    {
-    "id": 91,
-    "title": "dsds",
-    "slug": "dsds",
-    "price": 444,
-    "description": "dsds",
-    "category": {
-    "id": 1,
-    "name": "Clothes",
-    "slug": "clothes",
-    "image": "https://i.imgur.com/QkIa5tT.jpeg",
-    "creationAt": "2025-04-07T19:21:33.000Z",
-    "updatedAt": "2025-04-08T06:21:45.000Z"
-    },
-    "images": [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdWjqjpZ6iTOQ8gdGLEAtyYb7haAQLW7xsFQ&s"
-    ],
-    "creationAt": "2025-04-08T06:06:45.000Z",
-    "updatedAt": "2025-04-08T06:06:45.000Z"
-    }
+    },   
     ]
 
 
+  export const newArrivals = [
+    {
+      "id": 21,
+      "title": "Efficient 2-Slice Toaster",
+      "slug": "efficient-2-slice-toaster",
+      "price": 48,
+      "description": "Enhance your morning routine with our sleek 2-slice toaster, featuring adjustable browning controls and a removable crumb tray for easy cleaning. This compact and stylish appliance is perfect for any kitchen, ensuring your toast is always golden brown and delicious.",
+      "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-08T06:21:35.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/keVCVIa.jpeg",
+      "https://i.imgur.com/afHY7v2.jpeg",
+      "https://i.imgur.com/yAOihUe.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 23,
+      "title": "Sleek Modern Laptop with Ambient Lighting",
+      "slug": "sleek-modern-laptop-with-ambient-lighting",
+      "price": 43,
+      "description": "Experience next-level computing with our ultra-slim laptop, featuring a stunning display illuminated by ambient lighting. This high-performance machine is perfect for both work and play, delivering powerful processing in a sleek, portable design. The vibrant colors add a touch of personality to your tech collection, making it as stylish as it is functional.",
+      "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-08T06:21:35.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/OKn1KFI.jpeg",
+      "https://i.imgur.com/G4f21Ai.jpeg",
+      "https://i.imgur.com/Z9oKRVJ.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 24,
+      "title": "Sleek Modern Laptop for Professionals",
+      "slug": "sleek-modern-laptop-for-professionals",
+      "price": 97,
+      "description": "Experience cutting-edge technology and elegant design with our latest laptop model. Perfect for professionals on-the-go, this high-performance laptop boasts a powerful processor, ample storage, and a long-lasting battery life, all encased in a lightweight, slim frame for ultimate portability. Shop now to elevate your work and play.",
+      "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-08T06:21:35.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/ItHcq7o.jpeg",
+      "https://i.imgur.com/55GM3XZ.jpeg",
+      "https://i.imgur.com/tcNJxoW.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 25,
+      "title": "Stylish Red & Silver Over-Ear Headphones",
+      "slug": "stylish-red-silver-over-ear-headphones",
+      "price": 39,
+      "description": "Immerse yourself in superior sound quality with these sleek red and silver over-ear headphones. Designed for comfort and style, the headphones feature cushioned ear cups, an adjustable padded headband, and a detachable red cable for easy storage and portability. Perfect for music lovers and audiophiles who value both appearance and audio fidelity.",
+      "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-08T06:21:35.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/YaSqa06.jpeg",
+      "https://i.imgur.com/isQAliJ.jpeg",
+      "https://i.imgur.com/5B8UQfh.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 26,
+      "title": "Sleek Mirror Finish Phone Case",
+      "slug": "sleek-mirror-finish-phone-case",
+      "price": 27,
+      "description": "Enhance your smartphone's look with this ultra-sleek mirror finish phone case. Designed to offer style with protection, the case features a reflective surface that adds a touch of elegance while keeping your device safe from scratches and impacts. Perfect for those who love a minimalist and modern aesthetic.",
+      "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-08T06:21:35.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/yb9UQKL.jpeg",
+      "https://i.imgur.com/m2owtQG.jpeg",
+      "https://i.imgur.com/bNiORct.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 27,
+      "title": "Sleek Smartwatch with Vibrant Display",
+      "slug": "sleek-smartwatch-with-vibrant-display",
+      "price": 16,
+      "description": "Experience modern timekeeping with our high-tech smartwatch, featuring a vivid touch screen display, customizable watch faces, and a comfortable blue silicone strap. This smartwatch keeps you connected with notifications and fitness tracking while showcasing exceptional style and versatility.",
+      "category": {
+      "id": 2,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://i.imgur.com/ZANVnHE.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-08T06:21:35.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/LGk9Jn2.jpeg",
+      "https://i.imgur.com/1ttYWaI.jpeg",
+      "https://i.imgur.com/sPRWnJH.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 28,
+      "title": "Sleek Modern Leather Sofa",
+      "slug": "sleek-modern-leather-sofa",
+      "price": 53,
+      "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+      "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/Qphac99.jpeg",
+      "https://i.imgur.com/dJjpEgG.jpeg",
+      "https://i.imgur.com/MxJyADq.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 30,
+      "title": "Elegant Golden-Base Stone Top Dining Table",
+      "slug": "elegant-golden-base-stone-top-dining-table",
+      "price": 66,
+      "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+      "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/NWIJKUj.jpeg",
+      "https://i.imgur.com/Jn1YSLk.jpeg",
+      "https://i.imgur.com/VNZRvx5.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 31,
+      "title": "Modern Elegance Teal Armchair",
+      "slug": "modern-elegance-teal-armchair",
+      "price": 25,
+      "description": "Elevate your living space with this beautifully crafted armchair, featuring a sleek wooden frame that complements its vibrant teal upholstery. Ideal for adding a pop of color and contemporary style to any room, this chair provides both superb comfort and sophisticated design. Perfect for reading, relaxing, or creating a cozy conversation nook.",
+      "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/6wkyyIN.jpeg",
+      "https://i.imgur.com/Ald3Rec.jpeg",
+      "https://i.imgur.com/dIqo03c.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 32,
+      "title": "Elegant Solid Wood Dining Table",
+      "slug": "elegant-solid-wood-dining-table",
+      "price": 67,
+      "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+      "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/4lTaHfF.jpeg",
+      "https://i.imgur.com/JktHE1C.jpeg",
+      "https://i.imgur.com/cQeXQMi.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 33,
+      "title": "Modern Minimalist Workstation Setup",
+      "slug": "modern-minimalist-workstation-setup",
+      "price": 49,
+      "description": "Elevate your home office with our Modern Minimalist Workstation Setup, featuring a sleek wooden desk topped with an elegant computer, stylish adjustable wooden desk lamp, and complimentary accessories for a clean, productive workspace. This setup is perfect for professionals seeking a contemporary look that combines functionality with design.",
+      "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/3oXNBst.jpeg",
+      "https://i.imgur.com/ErYYZnT.jpeg",
+      "https://i.imgur.com/boBPwYW.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      {
+      "id": 34,
+      "title": "Modern Ergonomic Office Chair",
+      "slug": "modern-ergonomic-office-chair",
+      "price": 71,
+      "description": "Elevate your office space with this sleek and comfortable Modern Ergonomic Office Chair. Designed to provide optimal support throughout the workday, it features an adjustable height mechanism, smooth-rolling casters for easy mobility, and a cushioned seat for extended comfort. The clean lines and minimalist white design make it a versatile addition to any contemporary workspace.",
+      "category": {
+      "id": 3,
+      "name": "Furniture",
+      "slug": "furniture",
+      "image": "https://i.imgur.com/Qphac99.jpeg",
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      },
+      "images": [
+      "https://i.imgur.com/3dU0m72.jpeg",
+      "https://i.imgur.com/zPU3EVa.jpeg"
+      ],
+      "creationAt": "2025-04-07T19:21:33.000Z",
+      "updatedAt": "2025-04-07T19:21:33.000Z"
+      }
+  ]
 
  export const selectCategories = [
         {
