@@ -7,10 +7,10 @@ const CartDataProvider = ({ children }) => {
   const addToCart = (id, image, title, price, category) => {
     setCartData(prevCart => {
       const existingItem = prevCart.find(item => item.id === id);
-      
+
       if (existingItem) {
         return prevCart.map(item =>
-          item.id === id 
+          item.id === id
             ? { ...item, quantity: item.quantity + 1 }
             : item
         );
@@ -30,7 +30,7 @@ const CartDataProvider = ({ children }) => {
           const newQuantity = item.quantity + change;
           return {
             ...item,
-            quantity: newQuantity >= 1 ? newQuantity : 1 
+            quantity: newQuantity >= 1 ? newQuantity : 1
           };
         }
         return item;
@@ -42,11 +42,14 @@ const CartDataProvider = ({ children }) => {
     setCartData(prevCart => prevCart.filter(item => item.id !== id));
   };
 
+  const itemCount = cartData.reduce((total, item) => total + item.quantity, 0);
+
   const value = {
     cartData,
     addToCart,
     updateQuantity,
-    removeItem
+    removeItem,
+    itemCount
   };
 
   return (

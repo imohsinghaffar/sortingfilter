@@ -4,7 +4,7 @@ const Input = ({ inputHandle }) => {
   const [isFocused, setIsFocused] = useState(false);
 
   return (
-    <div className="relative w-full max-w-sm">
+    <div className="mx-12 md:mx-0 flex items-center justify-center relative ">
       <input
         onChange={inputHandle}
         onFocus={() => setIsFocused(true)}

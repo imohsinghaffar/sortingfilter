@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center justify-start gap-2 text-white">
+            <div className="px-3 md:px-0 flex items-center justify-start gap-2 text-white">
           <ShoppingBag className="w-6 h-6" />
           <NavLink
             to="/"
@@ -27,11 +27,11 @@ const Footer = () => {
             TrendVault
           </NavLink>
           </div>
-              <p className="text-gray-300 mb-4 max-w-md">
+              <p className="px-4 md:px-0 text-gray-300 mb-4 max-w-md">
                 Your one-stop destination for quality products. We bring you the best selection of electronics,
                 clothing, furniture, and more at unbeatable prices.
               </p>
-              <div className="flex space-x-4">
+              <div className="pt-4 md:pt-0 items-center justify-center md:items-start md:justify-start flex space-x-4">
               <FaFacebook to='#' className="text-2xl" />
               <FaSquareInstagram to='#' className="text-2xl" />
               <Link to='https://www.linkedin.com/in/mohsinghaffar/'><FaLinkedin className="text-2xl" /></Link>
@@ -39,9 +39,9 @@ const Footer = () => {
             </div>
 
             {/* Quick Links */}
-            <div>
+            <div className="text-center md:text-start">
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2 ">
                 <li>
                   <a href="#" className="text-gray-300 hover:text-indigo-400 transition-colors">
                     About Us
@@ -71,7 +71,7 @@ const Footer = () => {
             </div>
 
             {/* Categories imported from data.js file*/}
-            <div>
+            <div className="text-center md:text-start">
               <h3 className="text-lg font-semibold mb-4">Categories</h3>
               <ul className="space-y-2">
                 {selectCategories.slice(0, 5).map((category) => (
@@ -85,7 +85,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+          <div className="px-4 md:px-0 border-t border-gray-700 mt-8 pt-8 text-center">
             <p className="text-gray-400">© 2025 TrendVault. All rights reserved. | Privacy Policy | Terms of Service</p>
           </div>
         </div>

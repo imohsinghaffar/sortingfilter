@@ -46,8 +46,8 @@ const Cards = () => {
       </div>
 
       {/* Filters */}
-      <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-6 sm:gap-10 mb-10">
-        <div className="flex flex-wrap items-center gap-4">
+      <div className="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-6  mb-10">
+        <div className="flex flex-wrap items-center justify-center gap-4">
           <SelectCategory selectHandle={selectCategoryHandle} />
           <SortPrice
             lowToHighPrice={() => sortByPrice("asc")}

@@ -7,7 +7,7 @@ import {
   Headphones,
 } from "lucide-react";
 import { Link } from "react-router";
-import { newArrivals, selectCategories } from "../../data";
+import { selectCategories } from "../../data";
 import NewArrivalsSection from "./NewArrivalsSection";
 
 const Homepage = () => {
@@ -31,7 +31,7 @@ const Homepage = () => {
               <div className="flex flex-col  sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link to="/products">
                   {" "}
-                  <button className="cursor-pointer bg-indigo-900 hover:bg-indigo-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 shadow-lg">
+                  <button className="cursor-pointer w-full bg-indigo-900 hover:bg-indigo-800 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all transform hover:scale-105 shadow-lg">
                     Browse Products
                   </button>
                 </Link>
