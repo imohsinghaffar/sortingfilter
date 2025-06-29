@@ -39,8 +39,8 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Email Us</h3>
-                    <p className="text-gray-600">support@mystore.com</p>
-                    <p className="text-gray-600">sales@mystore.com</p>
+                    <p className="text-gray-600">support@trendvault.com</p>
+                    <p className="text-gray-600">sales@trendvault.com</p>
                   </div>
                 </div>
 
