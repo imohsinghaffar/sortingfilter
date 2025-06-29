@@ -33,5 +33,9 @@
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"
-  }
+  },
+  "optionalDependencies": {
+  "@rollup/rollup-darwin-arm64": "^4.44.1"
+}
+
 }
